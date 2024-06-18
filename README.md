@@ -19,8 +19,8 @@ This thesis explores the development of an automated tool for checking GDPR comp
 ### Setup
 Clone the repository and install the required packages:
 ```bash
-git clone https://github.com/Ozziekins/NLP4GDPR.git
-cd your-repository-directory
+git clone git@github.com:Ozziekins/MastersThesis_NLP4GDPR.git
+cd MastersThesis_NLP4GDPR
 pip install -r requirements.txt
 ```
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 To run the GDPR compliance checker, execute:  
 
 ```bash
-python gdpr_compliance_checker.py
+python3 gdpr_compliance_checker.py your_text_file.txt
 ```
 
 ## Conclusion
