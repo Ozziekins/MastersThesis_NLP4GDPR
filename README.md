@@ -21,15 +21,17 @@ Clone the repository and install the required packages:
 ```bash
 git clone git@github.com:Ozziekins/MastersThesis_NLP4GDPR.git
 cd MastersThesis_NLP4GDPR
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Usage
 To run the GDPR compliance checker, execute:  
 
 ```bash
-python3 gdpr_compliance_checker.py your_text_file.txt
+python3 gdpr_compliance_checker.py your_policy_text_file.txt
 ```
+
+Then you can open the corresponding `your_policy_text file.html` in any browser of your choice and view the report!
 
 ## Conclusion
 Summarize the findings of your thesis, the effectiveness of NLP in automating GDPR compliance checks, and potential future work.
